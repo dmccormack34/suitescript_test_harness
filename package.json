@@ -1,0 +1,20 @@
+{
+  "name": "mocha_js_suitelet",
+  "version": "1.0.0",
+  "description": "JS Project to create a NS Suitelet to run MochaJS Unit tests on scripts to automate TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dmccormack",
+  "license": "ISC",
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2016.2.16",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
