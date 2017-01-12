@@ -21,6 +21,7 @@ export function onRequest(context: EntryPoints.Suitelet.onRequestContext) {
             layoutType: ui.FieldLayoutType.NORMAL,
         });
         // return form 
+        form.clientScriptModulePath = "../client/test_harness_client.js";
         context.response.writePage(form);
     }
 }
