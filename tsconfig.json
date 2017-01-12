@@ -12,7 +12,8 @@
     "paths": {
       "N": ["node_modules/@hitc/netsuite-types/N"],
       "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
-    }
+    },
+    "outDir": "dist"
   },
   "exclude": ["node_modules"]
 }
