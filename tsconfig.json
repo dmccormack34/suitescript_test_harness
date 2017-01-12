@@ -13,7 +13,8 @@
       "N": ["node_modules/@hitc/netsuite-types/N"],
       "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
     },
-    "outDir": "dist"
+    "outDir": "dist",
+    "rootDirs": ["src"]
   },
   "exclude": ["node_modules"]
 }
